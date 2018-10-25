@@ -1,0 +1,41 @@
+Package: IPToolbox
+Type: Package
+Title: IPToolbox: an R package 
+Version: 1.0
+Author: Louison Fresnais and Nicolas TCHITCHEK
+Maintainer: Nicolas TCHITCHEK <nicolas.tchitchek@gmail.com> 
+Description: IPToolbox, an R package performing Data integration and prediction on data. 
+License: GPL-3 | file LICENSE
+Imports:
+    biclust,
+    gridExtra,
+	data.table,
+    diptest,
+	evtree,
+    flowCore,
+    ggdendro,
+	ggfortify,
+	ggplot2,
+	ggRandomForests,
+    ggrepel,
+    grDevices,
+	grid,
+    gridExtra,
+	gtable,
+    gtools,
+    igraph,
+    MASS,
+    methods,
+    packcircles,
+    plyr,
+    randomForestSRC,
+	reshape2,
+	survival,
+	WGCNA,
+	pROC
+LazyData: true
+Suggests:
+    knitr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+biocViews: FlowCytometry, Visualization, StatisticalMethod, Clustering, MultidimensionalScaling, Regression
