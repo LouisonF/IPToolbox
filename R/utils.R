@@ -1,13 +1,13 @@
 #' @title List the type of variables in a dataframe
 #'
 #' @description
-#' This function analyse variables types avalaible in the dataframe
+#' This function analyse variables types available in the dataframe
 #' These types are added to a list
 #' The order of this list is the order of variables in the dataframe
 #' 
 #' @param dataframe a dataframe with raw data
 #'
-#' @return a object containing a list and the input dataframe
+#' @return an object containing a list and the input dataframe
 #' 
 #' @import base
 

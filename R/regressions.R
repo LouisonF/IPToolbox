@@ -427,14 +427,6 @@ model.multinomial.logistic <- function(data.model,data.predict, dependantvar, le
 Recode.response(dataplot,1,response)
 Recode.response(dataplot,2,response)
 
-####PARTIE A AUTOMATISER ##CAT3
-  #dataplot$provided <- ifelse(dataplot$provided == 0, response[1], ifelse(dataplot$provided == 1, response[2], ifelse(dataplot$provided == 2, response[3], ifelse(dataplot$provided == 3, response[4], ifelse(dataplot$provided == 4, response[5], dataplot$provided)))))
-
-  #dataplot$predicted <- ifelse(dataplot$predicted == 0, response[1], ifelse(dataplot$predicted == 1, response[2], ifelse(dataplot$predicted == 2, response[3], ifelse(dataplot$predicted == 3, response[4], ifelse(dataplot$predicted == 4, response[5], dataplot$predicted)))))
-####### ##CAT2
-  #dataplot$provided <- ifelse(dataplot$provided == 0, response[1], ifelse(dataplot$provided == 1, response[2], ifelse(dataplot$provided == 2, response[3], dataplot$provided)))
-  #dataplot$predicted <- ifelse(dataplot$predicted == 0, response[1], ifelse(dataplot$predicted == 1, response[2], ifelse(dataplot$predicted == 2, response[3], dataplot$predicted)))
-########
   dataplot <- dataplot[,c(3,1,2)]
   colnames(dataplot)[1] <- "ID"                        
   ##
